@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+}
+#navbar {
+  position: absolute;
+  bottom: 0px;
+}
+
+#navbar .nav-lista {
+  background-color: whitesmoke;
+  list-style-type: none;
+  margin: 10px auto 15px;
+}
+
+#navbar .nav-lista a {
+  text-decoration: none;
+  margin: 0px 40px;
+}
+
+#logo {
+  height: 150px;
+}
+
+#hero {
+  background-image: url(img/hero.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+div[id^='secao-'] {
+  width: 60%;
+  margin: 20px auto;
+}
