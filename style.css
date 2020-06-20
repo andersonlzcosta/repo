@@ -1,15 +1,21 @@
 body {
   margin: 0;
 }
+p {
+  margin: 0;
+}
 #navbar {
   position: absolute;
   bottom: 0px;
+  width: 100%;
 }
 
 #navbar .nav-lista {
   background-color: whitesmoke;
   list-style-type: none;
-  margin: 10px auto 15px;
+  padding: 30px 0px;
+  display: flex;
+  justify-content: center;
 }
 
 #navbar .nav-lista a {
@@ -30,5 +36,7 @@ body {
 
 div[id^='secao-'] {
   width: 60%;
-  margin: 20px auto;
+  margin: 0px auto;
+  padding: 20px 0px;
+  min-height: 100vh;
 }
