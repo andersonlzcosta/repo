@@ -1,42 +1,49 @@
-body {
-  margin: 0;
+html {
+  scroll-behavior: smooth;
 }
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
 p {
   margin: 0;
 }
-#navbar {
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-}
 
-#navbar .nav-lista {
+#navbar {
+  position: sticky;
+  height: 10vh;
+  top: 0px;
+  width: 100%;
   background-color: whitesmoke;
   list-style-type: none;
-  padding: 30px 0px;
+  padding: 10px 0px;
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 
-#navbar .nav-lista a {
+#navbar a {
   text-decoration: none;
   margin: 0px 40px;
 }
 
 #logo {
-  height: 150px;
+  height: 50px;
 }
 
 #hero {
   background-image: url(img/hero.jpg);
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  height: 90vh;
 }
 
 div[id^='secao-'] {
   width: 60%;
   margin: 0px auto;
-  padding: 20px 0px;
+  padding: 10vh 0px;
   min-height: 100vh;
+  scroll-snap-align: start;
 }
