@@ -47,3 +47,7 @@ div[id^='secao-'] {
   min-height: 100vh;
   scroll-snap-align: start;
 }
+
+li.servico {
+  font-weight: bolder;
+}
