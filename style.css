@@ -1,3 +1,4 @@
+/* Ajustes gerais */
 html {
   scroll-behavior: smooth;
 }
@@ -11,6 +12,19 @@ p {
   margin: 0;
 }
 
+div[id^='secao-'] {
+  width: 60%;
+  margin: 0px auto;
+  padding: 10vh 0px;
+  min-height: 100vh;
+  scroll-snap-align: start;
+}
+
+div[class^='grid-'] {
+  display: grid;
+}
+
+/* Navbar */
 #navbar {
   position: sticky;
   height: 10vh;
@@ -33,21 +47,19 @@ p {
   height: 50px;
 }
 
-#sifc {
+/* Hero */
+#inicio {
   background-image: url(img/hero.jpg);
   background-position: center;
   background-size: cover;
   height: 90vh;
 }
 
-div[id^='secao-'] {
-  width: 60%;
-  margin: 0px auto;
-  padding: 10vh 0px;
-  min-height: 100vh;
-  scroll-snap-align: start;
+/* Seção Serviços */
+.grid-servicos {
+  grid-template-columns: repeat(3,auto);
 }
 
-li.servico {
-  font-weight: bolder;
+.grid-servicos > div > img {
+  height: 150px;
 }
