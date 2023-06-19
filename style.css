@@ -63,3 +63,12 @@ div[class^='grid-'] {
 .grid-servicos > div > img {
   height: 150px;
 }
+
+/* Seção Serviços */
+.grid-clientes {
+  grid-template-columns: repeat(3,auto);
+}
+
+.grid-clientes > div > img {
+  width: 150px;
+}
